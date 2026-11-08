@@ -1,0 +1,14 @@
+{
+  "name": "interval-merge-core",
+  "version": "0.1.0",
+  "description": "Closed-interval merge, gaps and coverage over finite numbers. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/intervals.test.js",
+    "demo": "node bin/intervals.mjs --assert"
+  }
+}
